@@ -1,0 +1,14 @@
+// Add to the following lists cross references to all the pages you want to see
+// listed in the navigation menu for this document
+* Préambule
+//** xref:doc-info.adoc[_Document information_] <-- first page (hidden in nav) indicated in antora.yml
+** xref:index.adoc[Généralités]
+** xref:version_notes.adoc[Notes de version]
+** xref:comment_contribuer.adoc[Comment contribuer]
+//
+* Discussion [_coming soon_]
+* Conclusion [_coming soon_]
+* References [_coming soon_]
+//
+//* xref:doc-info.adoc[_Document information_]
+//* xref:contributing.adoc[_Authorship criteria and how to contribute to this document_]

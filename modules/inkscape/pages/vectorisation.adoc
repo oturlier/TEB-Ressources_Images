@@ -1,0 +1,422 @@
+= Vectorisation
+Olivier TURLIER
+26 janvier 2020
+//
+// enable menu & keyboard
+:experimental:
+:page-partial:
+//:icons: font
+ifndef::env-github[:icons: font]
+//:toc:
+//:toc: left
+//:toc-title: Sommaire
+ifndef::imagesdir[:imagesdir: ../assets/images]
+//:favicon: ./images/favicon.ico
+// // embed image in html
+//:data-uri: yes
+// // equations-> matjax
+:stem:
+:eqnums: yes
+// // disable footer stamp
+//:nofooter:
+//:reproducible:
+// permit open link in another tab, like http://batchrocket.eu/fr/application[atelier,window="_blank"]
+:linkattrs:
+//
+//:tabs: tabs
+// //
+// ifndef::env-site,env-github[]
+// include::_attributes.adoc[]
+// endif::[]
+// //
+// include::{partialsdir}/README.adoc[tag=metadata]
+//
+// URis & replacements
+:uri_geonef_ai: https://www.build-green.fr/earthship-et-geonef-avantages-et-inconvenients/
+:uri_MR: https://fr.wikipedia.org/wiki/Mike_Reynolds_(architecte)
+:acad: AutoCAD
+:gimp: GIMP
+:bet: pass:q[B__e__T]
+:grnsht: GreenShot
+:uri_grnsht: https://getgreenshot.org/
+:qwant: QWANT
+:uri_qwant: https://www.qwant.com/
+:uri_qwant-maps: https://www.qwant.com/maps
+:uri_geoportail: https://www.geoportail.gouv.fr/
+:uri_openstreetmap: https://www.openstreetmap.fr/
+:uri_gmaps: https://www.google.fr/maps/preview
+
+
+// start write here
+
+//.source de l'article : clic sur l'image
+//image:une-earthship-phoenix.jpg[link="{uri_geonef_ai}",window="_blank"]
+
+
+[abstract]
+La _vectorisation_ peut rapporter gros! En {bet}, par exemple, il permet de réaliser des cartes au format A0 à partir de captures d'écran ... c'est ce que nous allons voir dans cette section
+
+
+//Comme à notre habitude, nous allons décortiquer ce type de construction pour vous en détailler son histoire, son concept et surtout ses qualités et défauts ...
+
+
+== Préalable
+
+=== Installation d'un logiciel de
+
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+=== Notion de
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+== Objectifs
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+
+== Tut vecto
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+=== Étape {counter:step:1}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+=== Étape {counter:step}
+
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+// https://www.randonner-leger.org/wiki/doku.php?id=faire_sa_carte
+// https://www.sport-nature.net/conseil/imprimer-carte-ign-a-lechelle/
+// https://adeorun.com/blog/conseils-organisateurs/creer-carte-organisateur
+// http://abc-map.fr/
+// https://www.supinfo.com/articles/single/6048-apprendre-photomontage-quelques-minutes-gimp
+// http://profteb.free.fr/psd/scan+assemblage_psd+gimp+autopano.html
+// https://forum.openstreetmap.fr/viewtopic.php?t=2203
+// https://cartocite.fr/tutoriels-openstreetmap/
+// http://sdz.tdct.org/sdz/maitrisez-la-2d-avec-photoshop.html
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+
+:fablab: pass:q[*FAB__e__LAB__e__*]
+
+
+
+.source de l'article : clic sur l'image
+image:une-earthship-phoenix.jpg[link="{uri_geonef_ai}",window="_blank"]
+
+[abstract]
+Imaginez une maison que vous construiriez avec des matériaux majoritairement recyclés, sans se brancher aux réseaux d’eau et d’électricité, n’ayant  quasiment aucun besoin de chauffage ou de climatisation toute l’année, quel que soit l’endroit du monde où elle se trouve et dans laquelle vous produiriez vos propres aliments ! C’est le concept presque parfait pour Build Green ! Et cette maison a un nom : la Earthship ou Géonef (en français). Mais est-ce vraiment la maison idéale ?
+
+Comme à notre habitude, nous allons décortiquer ce type de construction pour vous en détailler son histoire, son concept et surtout ses qualités et défauts ...
+
+== {fablab}
+****
+[.text-center]
+Un nouveau fablab _lowtech_ sur {mrs} spécialisé en autonomie énergétique : le {fablab}
+****
+
+.icon:graduation-cap[] Objectifs pédagogiques
+****
+icon:tags[role="blue"] **Pandoc**, **Wget**, **Path**,
+ **Asciidoc**, **Antora**, **Ressources informatiques**
+
+icon:check[role="green"] Connaissances : icon:cogs[] icon:cogs[] icon:cogs[]
+
+icon:signal[role="red"] Niveau technique : icon:star[] icon:star[]
+
+icon:hourglass-start[role="gray"] Temps de lecture : 10 minutes
+****
+
+
+.icon:graduation-cap[] Clés
+****
+[abstract]
+{description}
+
+//[.text-center]
+//*Worflow éditorial* = *Flux documentaire* +
+
+[cols="1a,1a",frame="none",grid="none",stripes="all"]
+|===
+
+|icon:check[role="green"] Conversion des ressources existantes (word & pdf) vers *Asciidoc*
+|icon:check[role="gray"] _Publication_ des ressources, sur intra- ou inter-net avec {uri-antora}[antora]
+
+|icon:check[role="green"] _Édition_ d'un cours avec *Asciidoc*, puis conversion en *html* et en *pdf*
+|icon:tags[role="blue"] {keywords}
+
+|===
+
+//icon:check[role="green"] Conversion des ressources existantes (word & pdf) vers *Asciidoc* +
+//icon:check[role="green"] Édition d'un cours avec *Asciidoc*, puis conversion en *html* et en *pdf* +
+//icon:check[role="gray"] Mise à disposition des ressources, sur intra- ou inter-net avec {uri-antora}[antora] +
+//icon:tags[role="blue"] {keywords}
+****
+
+
+
+
+En 1969, alors
+
+
+
+* {url_dblcmd}[{dblcmd},window="_blank"] : exploreur de fichiers ultra pratique, avec 2 panneaux principaux, que l'on peut agrémenter de pleins d'onglets (en faisant kbd:[Ctrl+T])
+
+
+ifndef::backend-pdf[]
+.Quelques _possibilités_ de {dblcmd}, yapluka! (clic -> image taille réelle dans un autre onglet)
+image:double-commander.png[,link="images/double-commander.png",window="_blank"]
+endif::[]
+
+ifdef::backend-pdf[]
+.Quelques _possibilités_ de {dblcmd}, yapluka!
+image:double-commander.png[1920,1080]
+endif::[]
+
+
+* *Quelques sources* :
+** http://earthship.com/[site officiel : Earthship Biotecture,window="_blank"]
+** https://fr.wikipedia.org/wiki/Earthship[Wikipédia earthship,window="_blank"]
+** https://www.habitetaterre.fr/[Association française dédiée aux Earthship,window="_blank"]
+* Des *exemples de earthships* :
+** http://www.lesclesdumidi.com/actualite/actualite-article-65799191.html[Première earthship en France,window="_blank"]
+* Vidéos* :
+** https://www.youtube.com/playlist?list=PLYxkc3ggAHtz4X-DnD9SAmq4VK1hZ_YhC[Playlist Youtube  de Build Green consacrée aux Earthships,window="_blank"]
+** http://www.garbagewarrior.com/[Garbage Warrior,window="_blank"], le film consacré à Michael Reynolds
+** *Pinterest* : notre https://fr.pinterest.com/pascalf49/earthship-et-g%C3%A9onef/[tableau dédié aux Earthships]
+** *Bonus* : le 1er earthship français en *reportage vidéo* par France 5 +
+
+video::z0z4CU_VpsI[youtube,width=800,height=450,opts="autoplay,loop,modest",window="_blank"]
+//https://www.youtube.com/watch?v=z0z4CU_VpsI&feature=emb_logo
+
+
+[.right]
+.un gourou?
+image:MR-gourou-250x167.jpg[]
+[horizontal]
+La dépendance aux préceptes et formations::
+Tel le *gourou* d’une secte, *Michael Reynolds* appuie son concept sur une https://www.earthshipglobal.com/academy-sessions[succession de formations,window="_blank"] qui vont vous permettre de suivre toutes les étapes de la construction. Tout ceci peut se faire en ligne depuis le site internet. Tout repose sur la confiance qu’on accordera au charismatique évangélisateur du mouvement Earthship. +
+*Certains* mettent toutefois en doute (http://translate.google.com/translate?hl=fr&sl=auto&tl=fr&u=http%3A%2F%2Fwww.greenbuildingadvisor.com%2Fblogs%2Fdept%2Fmusings%2Fearthship-hype-and-earthship-reality[traduction FR,window="_blank"]) les choix techniques préconisés, au risque de déclencher le courroux du gourou !
+
+
+Quelques infos complémentaires sur la gestion de l’eau dans http://futurdigitalnomad.fr/traitement-eau-earthship/#Recuperation_Le_toit_les_citernes[cet article,window="_blank"]
+
+
+
+
+ifndef::backend-pdf[]
+.Quelques _possibilités_ de {dblcmd}, yapluka! (clic -> image taille réelle dans un autre onglet)
+image:double-commander.png[,link="images/double-commander.png",window="_blank"]
+endif::[]
+
+ifdef::backend-pdf[]
+.Quelques _possibilités_ de {dblcmd}, yapluka!
+image:double-commander.png[1920,1080]
+endif::[]
+
+
+
+
+
+
+[[figureC-2]]
+.Stages of gelatinization
+====
+.Initial stages: No grains are fully gelatinized (ungelatinized starch granules are visible inside the kernels)
+image::c2-a.png[Alt3]
+
+.Intermediate stages: Some fully gelatinized kernels are visible
+image::c2-b.png[Alt4]
+
+.Final stages: All kernels are fully gelatinized
+image::c2-c.png[Alt5]
+
+====
+
+
+.Fichier asccidoc créé par Pandoc (clic pour ouvrir une image agrandie dans un autre onglet)
+image::create-ligne.png[,link="fichiers-support/images/create-ligne.png",window="_blank"]
+
+
+
+[cols="^.^1a,^.^1a"]
+|===
+
+|image::82-r-e-miege-13013_entree.png[]
+|image::82-r-e-miege-13013_parc.png[]
+
+
+|82 rue Étienne Miège, +
+13013 Marseille.
+|un beau parc non ?
+
+|===
+
+
+
+[cols="^.^1a,^.^1a"]
+|===
+
+|
+.Logo Github (clic -> nouvel onglet)
+image:github.png[width=400,link="https://github.com/",window="_blank"]
+|
+.Introduction à GIT+Github en francais ...
+video::hPfgekYUKgk[youtube,width=400,height=250,opts="autoplay,loop,modest"]
+//video::hPfgekYUKgk[youtube,width=800,height=450,opts="autoplay,loop,modest"]
+
+|===
+
+
+
+
+[[tableD-1]]
+[cols="<,^,^,^,^",headerrows=2]
+.Repeatability and reproducibility of husked rice yield
+|===
+.2+| Description 4+| Rice sample
+| Arborio | Drago footnote:[Parboiled rice.] | Balilla | Thaibonnet
+
+| Number of laboratories retained after eliminating outliers | 13 | 11 | 13 | 13
+| Mean value, g/100 g | 81,2 | 82,0 | 81,8 | 77,7
+| Standard deviation of repeatability, stem:[s_r], g/100 g | 0,41 | 0,15 | 0,31 | 0,53
+| Coefficient of variation of repeatability, % | 0,5 | 0,2 | 0,4 | 0,7
+| Repeatability limit, stem:[r] (= 2,83 stem:[s_r]) | 1,16 | 0,42 | 0,88 | 1,50
+| Standard deviation of reproducibility, stem:[s_R], g/100 g | 1,02 | 0,20 | 0,80 | 2,14
+| Coefficient of variation of reproducibility, % | 1,3 | 0,2 | 1,0 | 2,7
+| Reproducibility limit, stem:[R] (= 2,83 stem:[s_R]) | 2,89 | 0,57 | 2,26 | 6,06
+|===
+
+
+
+++++
+<!-- HTML to embed an iframe -->
+<hr>
+<div class="iframe-container">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6901.1652328768605!2d5.428004878715163!3d43.34392368617627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9be2c050d89f7%3A0x8a5cb8d0d66f4d62!2s82%20Rue%20Etienne%20Mi%C3%A8ge%2C%2013013%20Marseille!5e0!3m2!1sfr!2sfr!4v1579858168267!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+
+<!-- CSS to make the iframe responsive -->
+<style>
+.iframe-container {
+overflow: hidden;
+padding-top: 100%;
+position: relative;
+}
+.iframe-container iframe {
+ border: 0;
+ height: 100%;
+ left: 0;
+ position: absolute;
+ top: 0;
+ width: 100%;
+}
+</style>
+++++
+
+
+page, menu:Insertion[champ] pour insérer un champ
+
+kbd:[Ctrl+D]
+
+
+link:{site-url}/assets/mydoc.pdf[get the PDF]
+
+
+
+
+
+:sectnums!:
+:!step:
+[#import-repo-template]
+=== (Step {counter:step:1}) Import the repository template for new documents
+
+NOTE: _Importing_ a repository is a different concept from _forking_ or _creating_ an empty one.
+
+Go to the btn:[＋ ▾] drop down menu on GitHub's top bar and select the menu:Import repository[] option, as shown in the following figure:
+
+
+If you want to understand what is in the template, its contents are described in section xref:document-template.adoc#repo-anatomy[Anatomy of a document repository].
+
+[#add-collaborators]
+=== (Step {counter:step}) Add collaborators to the repository
+
+Once the repository is created, you can visit its main page in GitHub.
+If you called it, for example, `docs-my-great-content`, the URL should be `https://github.com/decidim/docs-my-great-content`.
+
+By default only you (the creator and administrator) can write to the recently created repository.
+To enable collective writing you must add collaborators going to menu:Settings[Collaborators & teams].
+
+Add the team `docs` and any other individual or team collaborator that needs access to the repository.
+Give them "Write" permission.
+
+=== (Step {counter:step}) Protect the `master` branch and add explicit permissions to it
+
+Go to menu:Settings[Branches].
+Under "Branch protection rules", choose branch `master`.
+
+Select options "Protect this branch" and "Restrict who can push to this branch", and deselect all other options.
+In section "People and teams with push access" add all the people and teams that you added in <<add-collaborators>>.
+Push btn:[Save changes].
+
+:sectnums:
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+
+
+

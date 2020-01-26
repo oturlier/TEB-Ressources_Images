@@ -1,0 +1,10 @@
+= Historique de l'édition de ces ressources TEB
+
+* 2020
+** janvier : 
+*** édition initiale de ces ressources TEB/traitement d'image
+*** ajout module/section : gimp/carte-grand-format
+*** ajout module/section : inkscape/vectorisation
+** février : 
+*** ajout section : gimp/dégradé
+
